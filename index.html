@@ -1,59 +1,93 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مشروع إنتاج الطبليات الخشبية</title>
+    <title>Wooden Pallets Production Project</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        h1 {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
             color: #333;
+            line-height: 1.6;
         }
-        p {
-            font-size: 18px;
-            color: #555;
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        p.description {
+            text-align: center;
+            margin: 20px auto;
             max-width: 800px;
-            margin: 0 auto 20px;
+            font-size: 18px;
         }
-        .images {
+
+        .gallery {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
         }
-        .images img {
+
+        .gallery img {
             width: 300px;
-            margin: 10px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: 200px;
+            object-fit: cover;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out;
         }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
         footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
             margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
             font-size: 14px;
-            color: #777;
         }
     </style>
 </head>
 <body>
 
-    <h1>مشروع إنتاج الطبليات الخشبية</h1>
-    <p>
-        مشروع إنتاج الطبليات الخشبية وأبرز استعمالاتها في المواد الغذائية والمجالس بأنواعها. وتستخدم في تصميم هياكل البناء وليس هذا فقط، بل يمكن استخدام القشرة الخارجية للأخشاب في أعمال الزينة والزخرفة، وألواح الأخشاب المضغوطة والسميكة المستخدمة في صناعة الأثاث المنزلي.
+    <header>
+        <h1>Wooden Pallets Production Project</h1>
+    </header>
+
+    <p class="description">
+        The Wooden Pallets Production Project focuses on manufacturing high-quality pallets widely used in the food industry and various types of seating. Additionally, wooden pallets are utilized in building structures, and the outer layer of wood can be used for decorative purposes. These pallets are also employed in the production of compressed and thick wooden panels, which are used in household furniture manufacturing.
     </p>
 
-    <div class="images">
-        <img src="/mnt/data/IMG-20241023-WA0071.jpg" alt="طبلية 1">
-        <img src="/mnt/data/IMG-20241023-WA0072.jpg" alt="طبلية 2">
-        <img src="/mnt/data/IMG-20241023-WA0073.jpg" alt="طبلية 3">
-        <img src="/mnt/data/IMG-20241023-WA0074.jpg" alt="طبلية 4">
-        <img src="/mnt/data/IMG-20241023-WA0075.jpg" alt="طبلية 5">
+    <div class="gallery">
+        <img src="/mnt/data/IMG-20241023-WA0071.jpg" alt="Pallet Image 1">
+        <img src="/mnt/data/IMG-20241023-WA0072.jpg" alt="Pallet Image 2">
+        <img src="/mnt/data/IMG-20241023-WA0073.jpg" alt="Pallet Image 3">
+        <img src="/mnt/data/IMG-20241023-WA0074.jpg" alt="Pallet Image 4">
+        <img src="/mnt/data/IMG-20241023-WA0075.jpg" alt="Pallet Image 5">
     </div>
 
     <footer>
-        &copy; 2024 مشروع إنتاج الطبليات الخشبية
+        <p>&copy; 2024 Wooden Pallets Production Project</p>
     </footer>
 
 </body>
