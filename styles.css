@@ -42,13 +42,16 @@ main {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
 }
 
 .gallery img {
-    width: 300px; /* Width of the images */
-    height: auto; /* Maintain aspect ratio */
-    margin: 10px; /* Space between images */
+    width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
