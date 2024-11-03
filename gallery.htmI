@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wooden Pallets Production Project - Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gallery of Wooden Pallets</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <!-- Using placeholder images for demonstration -->
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+1" alt="Wooden Pallet 1">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+2" alt="Wooden Pallet 2">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+3" alt="Wooden Pallet 3">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+4" alt="Wooden Pallet 4">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+5" alt="Wooden Pallet 5">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+6" alt="Wooden Pallet 6">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+7" alt="Wooden Pallet 7">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+8" alt="Wooden Pallet 8">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+9" alt="Wooden Pallet 9">
+            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+10" alt="Wooden Pallet 10">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wooden Pallets Production Project</p>
+    </footer>
+
+</body>
+</html>
