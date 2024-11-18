@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
         <h1>Gallery of Wooden Pallets</h1>
         <nav>
@@ -16,23 +15,17 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-
-    <main>
-        <section class="gallery">
-            <!-- User-uploaded images -->
-            <img src="path/to/your-images/file-SLRvwDDuN4SBLMDgY1zju082.jpg" alt="Wooden Pallet 1">
-            <img src="path/to/your-images/file-GbcdOLLjrK892sPbkWTDUWx3.jpg" alt="Wooden Pallet 2">
-            <img src="path/to/your-images/file-5frPNdXwqaNKAPUwrSs8AXWX.jpg" alt="Wooden Pallet 3">
-
-            <!-- Additional placeholder images -->
-            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+4" alt="Wooden Pallet 4">
-            <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+5" alt="Wooden Pallet 5">
-        </section>
-    </main>
-
+    <div class="gallery">
+        <!-- Using placeholder images for demonstration -->
+        <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+1" alt="Wooden Pallet 1">
+        <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+2" alt="Wooden Pallet 2">
+        <!-- Add more images as needed -->
+        <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+3" alt="Wooden Pallet 3">
+        <img src="https://via.placeholder.com/300.png?text=Wooden+Pallet+4" alt="Wooden Pallet 4">
+        <!-- Continue adding images up to 20 or more -->
+    </div>
     <footer>
         <p>&copy; 2024 Wooden Pallets Production Project</p>
     </footer>
-
 </body>
 </html>
